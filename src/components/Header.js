@@ -6,7 +6,7 @@ import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import PaymentIcon from '@material-ui/icons/Payment';//entries
 import AmpStoriesIcon from '@material-ui/icons/AmpStories';//divisions
-import {Avatar, IconButton } from '@material-ui/core';
+import { Avatar, IconButton } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
 import Brightness7OutlinedIcon from '@material-ui/icons/Brightness7Outlined';
 
@@ -43,12 +43,11 @@ const Header = () => {
                 <div className="header__rightOptions">
                     <NotificationsIcon className="headerRight__more--icon headerRight__iconNotify" />
                     <div className="headerRight__more">
-                        <Avatar src={chiedozie} alt='chiedozie'/>
+                        <Avatar className="userProfile__p" src={chiedozie} alt='chiedozie'/>
                         <KeyboardArrowDownIcon className="headerRight__more--icon" />
                     </div>
                 </div>
             </div>
-            
         </div>
     )
 }

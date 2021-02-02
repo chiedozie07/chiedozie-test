@@ -17,11 +17,6 @@
     justify-content: space-evenly;
     align-items: center;
 }
-/* 
-.logo {
-    height: 40px;
-    text-align: center;
-} */
 
 .header__left--logo {
    background-image: linear-gradient(to right bottom, rgba( #a4c27c,  navy, .8));
@@ -61,7 +56,6 @@
     transition: all .1s;
     background-color: skyblue;
     cursor: pointer;
-    /* transform: translate(1deg) scale(0.07); */
 }
 
 .headerLeft__item > .MuiSvgIcon-root, p {

@@ -9,7 +9,6 @@ import FingerprintIcon from '@material-ui/icons/Fingerprint';
 import MeetingRoomIcon from '@material-ui/icons/MeetingRoom';
 import { Divider } from '@material-ui/core';
 
-
 const Sidebar = () => {
     return (
         <div className="sidebar">

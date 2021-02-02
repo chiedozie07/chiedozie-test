@@ -11,7 +11,6 @@ const SidebarBottom = () => {
                 <ModuleHistory Icon={AssignmentIcon} title="Module History" />
             </div>
             <Divider />
-
             <div>
                 <ul className="sidebarBotttom__header--item">
                 <li>

@@ -1,6 +1,5 @@
 import React from 'react';
 import './Header.css';
-// import avatar from '../images/chiedozie2.png';
 import chiedozie from './images/chiedozie.jpg';
 import HouseIcon from '@material-ui/icons/House';
 import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
@@ -8,7 +7,6 @@ import NotificationsIcon from '@material-ui/icons/Notifications';
 import PaymentIcon from '@material-ui/icons/Payment';//entries
 import AmpStoriesIcon from '@material-ui/icons/AmpStories';//divisions
 import {Avatar, IconButton } from '@material-ui/core';
-// import Avatar from '@material-ui/core/Avatar';
 import SearchIcon from '@material-ui/icons/Search';
 import Brightness7OutlinedIcon from '@material-ui/icons/Brightness7Outlined';
 

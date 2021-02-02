@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './components/Header';
+import TopNav from './components/TopNav';
+import LiveUpdate from './components/LiveUpdate';
+import Sidebar from './components/Sidebar';
+import SidebarBottom from './components/SidebarBottom';
+import Feeds from './components/Feeds';
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="app">
+            <Header />
+            <TopNav />
+            <LiveUpdate />
+            <div className="app__body">
+                <div className="app__body--sidebar">
+                    <Sidebar />
+                    <SidebarBottom />
+                </div>
+                <Feeds />
+            </div>
+        </div>
+    );
 }
 
 export default App;

@@ -1,0 +1,23 @@
+.divisionSummary {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    cursor: pointer;
+    box-shadow: 3px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+
+.divisionSummary:hover {
+    background-color: lightgray;
+    border-radius : 10px;
+}
+
+.divisionSummary > h4 {
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.divisionSummary > .MuiSvgIcon-root {
+    color: navy;
+    font-size: xx-large;
+}

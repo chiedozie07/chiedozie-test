@@ -1,0 +1,137 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #f7f7f7;
+    padding: 5px 20px;
+    height: 60px;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+    border-bottom: 1px solid whitesmoke;
+}
+
+.header__left {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* 
+.logo {
+    height: 40px;
+    text-align: center;
+} */
+
+.header__left--logo {
+   background-image: linear-gradient(to right bottom, rgba( #a4c27c,  navy, .8));
+}
+
+.headerLeft__optionContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.headerLeft__item:hover > .MuiSvgIcon-root {
+    color: blue;
+}
+
+.headerLeft__item:hover > p {
+    color: blue;
+}
+
+.headerLeft__optionContainer > .MuiSvgIcon-root {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: gray;
+}
+
+.headerLeft__item {
+    display: flex;
+    margin-right: 15px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.headerLeft__item:hover {
+    color: blue !important;
+    border-bottom: 3.5px solid blue;
+    transition: all .1s;
+    background-color: skyblue;
+    cursor: pointer;
+    /* transform: translate(1deg) scale(0.07); */
+}
+
+.headerLeft__item > .MuiSvgIcon-root, p {
+    color: gray;
+    margin-bottom: 4px;
+    padding: 5px;
+}
+
+.headerLeft__item > p {
+    font-family: sans-serif;
+    font-size: normal;
+    font-weight: 600;
+}
+
+.header__right {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header__input {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 20px;
+    width: 100%;
+}
+
+.header__input > input {
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+    padding: 5px;
+    font-size: medium;
+    width: 100%;
+}
+
+.search--btn {
+    height: 36px;
+    width: 36px;
+}
+
+.header__rightOptions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .headerRight__iconNotify {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.headerRight__more--icon {
+    color: gray;
+}
+
+.headerRight__more--icon:hover {
+    color: blue;
+    cursor: pointer;
+    transition: all .1s;
+}
+
+.headerRight__more {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}

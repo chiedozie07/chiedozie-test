@@ -1,0 +1,17 @@
+.sidebar {
+    padding: 25px 10px;
+    flex: 0.33;
+    width: 334px;
+}
+
+.sidebar__header {
+    display: 'flex';
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.sidebar__header > .MuiSvgIcon-root {
+    color: navy;
+    font-size: xx-large;
+}

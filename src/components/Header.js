@@ -43,7 +43,7 @@ const Header = () => {
                 <div className="header__rightOptions">
                     <NotificationsIcon className="headerRight__more--icon headerRight__iconNotify" />
                     <div className="headerRight__more">
-                        <Avatar className="userProfile__p" src={chiedozie} alt='chiedozie'/>
+                        <Avatar className="userProfile__pix" src={chiedozie} alt='chiedozie'/>
                         <KeyboardArrowDownIcon className="headerRight__more--icon" />
                     </div>
                 </div>

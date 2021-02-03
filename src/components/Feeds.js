@@ -14,7 +14,7 @@ const Feeds = () => {
     return (
         <div className="feeds">
             <div className="feeds__header">
-                <input type="checkbox" />
+                <input type="checkbox" checked />
                 <h5>NAME</h5>
                 <h5>LOCATION</h5>
                 <h5>STATUS</h5>
